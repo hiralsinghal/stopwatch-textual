@@ -59,6 +59,8 @@ class Stopwatch(HorizontalGroup):
 
 class StopwatchApp(App):
 
+    CSS_PATH = "stopwatch.tcss"
+
     BINDINGS = [
         ("d","toggle_dark","Toggle dark mode"),
         ("a","add_stopwatch","Add"),

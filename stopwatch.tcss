@@ -1,0 +1,6 @@
+Stopwatch {
+    background: cyan;
+    height:5;
+    margin:2;
+    padding:2;
+}
