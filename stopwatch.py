@@ -43,10 +43,10 @@ class Stopwatch(HorizontalGroup):
 
         if button_id=="start":
             time_display.start()
-            self.add_class("Started")
+            self.add_class("started")
         elif button_id=="stop":
             time_display.stop()
-            self.remove_class("Started")
+            self.remove_class("started")
         elif button_id=="reset":
             time_display.reset()
 
