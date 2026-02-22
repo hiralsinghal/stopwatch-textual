@@ -59,7 +59,7 @@ class Stopwatch(HorizontalGroup):
 
 class StopwatchApp(App):
 
-    CSS_PATH = """
+    CSS = """
         Stopwatch {
             background: #F1F3E0;
             height:8;
